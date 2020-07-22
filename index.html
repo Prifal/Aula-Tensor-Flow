@@ -10,23 +10,76 @@
 <body>
     <div class="container" style="text-align: center;">
         <header class="jumbotron" style="background-color:#2f9e41; color:white;">
-            <h1>IFSULDEMINAS - Teachable Machine Image Model</h1>
-            <p>Campus Machado </p>
+            <h1>Lista de Materiais Escolares</h1>
+            <p>...................................................................................................................................................................</p>
+            <p> IF Sul de Minas - Campus Machado </p>
+            <p>Inteligencia Artificial - Prof. Matheus Franco</p>
             <p>Priscila Almeida Ferreira</p>
-            <p>7° Período em Licenciatura em Computação'</p>
+            <p>7° Período Licenciatura em Computação'</p>
         </header>
          
-        <div id="celular">
-            Telefone celular (português brasileiro) ou telemóvel (português europeu) é um aparelho de comunicação por ondas eletromagnéticas que permite a transmissão bidirecional de voz e dados utilizáveis em uma área geográfica que se encontra dividida em células (de onde provém a nomenclatura celular), cada uma delas servida por um transmissor/receptor. A invenção do telefone celular ocorreu em 1947 pelo laboratório Bell, nos Estados Unidos.[1]
+        <div id="agenda" >
+           <p> <img src="imagens/agenda.jpg" width="25%" height="25%" <p align="left" ><br><br> "As agendas são utilizadas para anotações de tarefas e horários importantes. 
+                Geralmente é de uso pessoal e tem prazo de validade de 1(um) ano, relata-se qu as agendas tem 
+                origens desde a antiguidade onde seu modelo era em formato de pergaminho, na época do Imperio 
+                Romano. E hoje podemos encontrar diversos modelos de agendas modernas e personalizadas!"
+            </p>
+<br>
+<br>
+<br>
+ 
+            <p> <img src="imagens/caneta.jpg" width="25%" height="25%" <p align="right" ><br><br> 
+                "A escrita foi uma das mais importantes descobertas do homem. eram utilizados pedaços pontiagudos de madeira ou ossos para traçar os escritos, marcando permanentemente o bloco de argila onde eram feitos.
+                Durante muitos anos, as penas de ganso foram utilizadas para a escrita. Somente no final do século XVIII é que surgiu a ideia de substituir tal instrumento por um objeto manufaturado. 
+                Assim, foram criadas as penas de metal, as quais obtiveram relativo sucesso na época, embora as penas de ave continuassem a ser usadas.As canetas esferográficas, principal modelo usado atualmente, surgiram em 1937 por meio do húngaro Lásló Bíró,o qual se baseou em uma caneta que não borrava e cuja tinta não secava no depósito, como fazia a velha caneta-tinteiro.."
+</p>
+<br>
+<br>
+<br>
+ 
+            <p><img src="imagens/lapis.jpg" width="25%" height="25%" <p align="left" ><br><br> 
+                "O lápis é uma ferramenta para escrever, desenhar ou até riscar papel, habitualmente constituído por um estilete cilíndrico de grafite revestido de madeira - o tradicional lápis de escrever preto. 
+ O lápis moderno apareceu no século XVI, depois da descoberta das primeiras jazidas de grafite na Inglaterra. No entanto, até hoje em inglês o lápis grafite é chamado de "lead pencil"
+ que quer dizer lápis de chumbo, provavelmente por causa da influência da cultura greco-latina."
+</p>
+<br>
+<br>
+<br>
 
-            Há diferentes tecnologias para a difusão das ondas eletromagnéticas nos telefones móveis, baseadas na compressão das informações ou na sua distribuição: na primeira geração (1G) (a analógica, desenvolvida no início da década de 1980), com os sistemas NMT e AMPS; na segunda geração (2G) (digital, desenvolvida no final da década de 1980 e início da década de 1990): GSM, CDMA e TDMA; na segunda geração e meia (2,5G) (uma evolução à 2G, com melhorias significativas em capacidade de transmissão de dados e na adoção da tecnologia de pacotes e não mais comutação de circuitos), presente nas tecnologias GPRS, EDGE, HSCSD e 1xRTT; na terceira geração (3G) (digital, com mais recursos, em desenvolvimento desde o final dos anos 1990), como UMTS e EVDO; na terceira geração e meia (3,5G), como HSDPA, HSPA e HSUPA. Já em desenvolvimento a 4G (quarta geração).
-        </div>
+            <p> <img src="imagens/cola.jpg" width="20%" height="20%" <p align="right" ><br><br> "A cola foi descoberta na Pré-História Para desenvolver uma espécie de tinta usada na Arte Rupestre (pinturas em cavernas), 
+                os homens da Antiguidade resolveram misturar sangue, ovos e sumos de frutas. No entanto, os mesmos perceberam que a mistura tinha uma propriedade de grude muito boa. Foi assim que surgiu a primeira 
+                substância colante da história. Atualmente as colas são feitas a partir substâncias sintéticas, algo bem mais agradável do que antigamente."
+</p>
+<br>
+<br>
+<br>
 
-       <p>Clique no botão para reconhecer um celular</p>
-        <button type="button" class="btn btn-primary" onclick="init()">Iniciar Reconhecimento</button>
+<p><img src="imagens/grampeador.jpg" width="20%" height="20%" <p align="left" ><br><br> 
+    "Os primeiros registros desse elemento de fixação surgem dos antigos persas, que precisavam de 
+    soluções para manterem unidos, de forma segura, blocos de pedra que eram usados em construçõe.  um construtor teve a ideia de criar um pedaço de metal torto, como dois pregos industriais unidos em uma mesma cabeça. 
+    Esse objeto era usado para ser fincado em dois blocos.  primeiro grampeador da história era destinado para união de papéis. 
+    A ferramenta foi feita à mão para uso exclusivo de Luís XV, no século XVIII."
+</p>
+<br>
+<br>
+<br>
+
+<p><img src="imagens/borrachas.jpg" width="20%" height="20%" <p align="right" ><br><br> 
+    "A borracha natural é o produto primário da coagulação do látex da seringueira (Hevea brasiliensis). 
+    Hoje, a borracha sintética, cotômero natural em algumas aplicações e complementar em outras, é produzida a partir de derivados de petróleo. 
+    Tanto uma como outra tem como polímero fundamental o poli-isopreno. "
+</p>
+<br>
+<br>
+<br>
+
+<br>
+        <p>Clique no botão para reconhecer um de nossos materiais! </p>
+        <button type="button" class="btn btn-primary" onclick="init()"  >Iniciar Reconhecimento</button>
         <div id="webcam-container"></div>
         <div id="label-container" class="display-4"></div>
 
+<br>
 
         <footer class="panel-footer" style="text-align:center; background-color:#2f9e41; color:white;"> 
             Todos direitos reservados - Departamento de Computação - IFSULDEMINAS - Campus Machado
